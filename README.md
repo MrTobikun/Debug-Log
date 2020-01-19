@@ -1,5 +1,6 @@
 # Debug Log
 Cross-platform output debugging information to a file with C++ language features
+
 Tested on compilers:
 - GCC
 - Clang
@@ -7,6 +8,7 @@ Tested on compilers:
 
 > In newer versions MSVC before build, reports that freopen function is unsafe
 > Solved by writing to preprocessor `_CRT_SECURE_NO_WARNINGS`
+
 
 Tested on platforms:
 - Linux
